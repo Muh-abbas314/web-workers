@@ -10,7 +10,7 @@ const worker=new Worker('worker.js')
 
 SumBtn.addEventListener("click",(e)=>{
 worker.postMessage("Start working wage boy!!!")
-    // let sum=0
+// let sum=0
 // for(let i=0;i<2334343;i++)
 // {
 //     sum+=i
